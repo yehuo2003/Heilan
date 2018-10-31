@@ -1,0 +1,34 @@
+.container {
+    min-width: 100% !important;
+}
+ul>li{
+    font-size: 12px;
+}
+ul>li>a{
+    color: #666;
+    line-height: 30px;
+}
+ul>li>a>b{
+    font-size: 14px;
+    color: #333;
+}
+.bg-ccc{
+    border-bottom: 1px solid #cccccc;
+    background: #eee;
+    line-height: 30px;
+}
+.btn{
+    border: 1px solid #ccc;
+    color: #1582bd;
+    background: #F0F0F0;
+    font-size: 14px;
+}
+.input-group-sm{
+    border-radius: 10px;
+    font-size: 14px;
+    width: 30%;
+}
+.nav>li>a{
+    color: #727272;
+    font-size: 14px;
+}

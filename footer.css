@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.foot_bg1{
+    background:#343434;
+    width: 100%;
+    height: 15rem;
+}
+.foot_bg2{
+    background-color: #666;
+    border-top: 3px solid #818181;
+    width: 100%;
+    height: 10rem;
+}
+span{
+    color: #bababa;
+    font-size: 14px;
+}
+.border-bottom {
+    border-bottom: 1px dashed #dee2e6 !important;
+}
+ul>li>a,div a{
+    color: #888;
+}
+.col-3 span,ul>li>a,div a{
+    font-size: 12px;
+}
+.col-3>p,h5,.col-3 span{
+    color: #dddddd;
+}
+.col-3{
+    border-left: 1px solid #dee2e6 !important;
+}
+.foot_gs{
+    width: 35px;
+}
