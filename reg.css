@@ -1,0 +1,35 @@
+table{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #cccccc;
+}
+.my_btn3{
+    color:#444;
+    border: 1px solid #cccccc;
+    top:1px;
+    position: relative;
+    background: #FFF !important;
+    z-index: 2;
+}
+.form-control{
+    width: 300px;
+}
+th{
+    text-align: center;
+}
+table p{
+    margin-left: 200px;
+}
+.my_btn1{
+    width: 100px;
+    height: 40px;
+    background: #d9534f;
+    display: inline-block;
+}
+.my_btn2{
+    width: 160px;
+    background: #d9534f;
+}
+table th p{
+    margin-left:-428px;
+}

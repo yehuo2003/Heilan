@@ -1,0 +1,30 @@
+div.card-body div{
+    padding: 10px;
+    position: relative;
+    left: 74px;
+    line-height: 30px;
+}
+div.card-body p,div.card-body p>a{
+    position: relative;
+    left: 130px;
+    color: #999;
+    line-height: 30px;
+}
+div.card-body p>a{
+    left: 80px;
+}
+div.card-body p>input{
+    top: 2px;
+    position: relative;
+}
+.btn-danger{
+    width: 80px;
+    height: 30px;
+    background: #d9534f;
+    position: relative;
+    left: 100px;
+}
+.p1{
+    width: 320px;
+}
+div.card-body
