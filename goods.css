@@ -1,0 +1,122 @@
+div.container .row .col-5>img{
+    width: 400px;
+    height: 400px;
+}
+div.container .row .col-7{
+    padding: 20px;
+}
+.price{
+    width: 100%;
+    height: 70px;
+    background-image: url(../img/goods/img1/detailimg6.jpg);
+    line-height: 70px;
+}
+b{
+    font-size: 18px;
+    color: #c40000;
+}
+div.col-2>div>a>img{
+    width: 150px;
+    height: 150px;
+}
+.my_border img{
+    width: 172px;
+    height: 172px;
+}
+div.col-2>div>a{
+    color: #555;
+}
+div.col-2>div>a span,.my_border span{
+    color: #ff5200;
+}
+th{
+    width: 50px;
+    color: #aaaaaa;
+}
+.bg-secondary {
+    background-color: #bbb !important;
+}
+.my_chima{
+    width: 62px;
+    height: 37px;
+    border: 2px solid #ccc;
+    float: left;
+    text-align: center;
+}
+table td>input{
+    width: 32px;
+    height: 30px;
+    text-align: center;
+}
+table tr td a.ml-5{
+    font-size: 14px;
+    color: #222;
+}
+table th>div.text-center>input{
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+}
+.my_btn{
+    background: #ffeded;
+    color: #cf5f5f;
+    border: 1px solid #cf5f5f;
+}
+.my_btn2{
+    width: 10px;
+    height: 10px;
+}
+.my_btn2>img{
+    width: 13px;
+    height: 10px;
+}
+.container div.col-5 div.d-flex div>img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+.my_img1{
+    position: relative;
+    left:65px;
+}
+ul>li>a{
+    font-weight: bold;
+    font-size: 14px;
+}
+ul>li{
+    margin: 10px;
+    text-align: start;
+}
+.bg-dark{
+    width: 188px;
+    height: 40px;
+}
+.bg-dark>p{
+    line-height: 40px;
+}
+.my_border{
+    width: 188px;
+    border:1px solid #ccc;
+}
+.card-header>a{
+    font-size: 16px;
+}
+.col-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+.col-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+div.col-9 .card-body>img{
+    width: 98%;
+    height: 98%;
+    padding-left: 10px;
+}
