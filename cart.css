@@ -1,0 +1,58 @@
+.card-header div{
+    font-size: 16px;
+    line-height: 40px;
+    height: 40px;
+    border-left: 1px solid #ddd;
+}
+.card-header>div:nth-child(1),.card-body>div>div:nth-child(1){
+    width: 400px;
+    border-left: 0px;
+}
+.card-header>div:nth-child(2),.card-body>div>div:nth-child(2){
+    width: 100px;
+}
+.card-header>div:nth-child(3),.card-header>div:nth-child(5),.card-body>div>div:nth-child(3),.card-body>div>div:nth-child(5){
+    width: 150px;
+}
+.card-header>div:nth-child(4),.card-body>div>div:nth-child(4){
+    width: 200px;
+}
+.card-header>div:nth-child(6),.card-body>div>div:nth-child(6){
+    width: 170px;
+}
+.card-body img{
+    width: 100px;
+    height: 100px;
+}
+.card-body>div{
+    height: 110px;
+}
+.card-body p{
+    width: 250px;
+}
+.card-body button{
+    border: 1px solid #aaa;
+    color: #aaa;
+}
+.card-body input{
+    height: 29px;
+}
+.my_line_height{
+    line-height: 110px;
+    font-size: 16px;
+}
+.border-bottom {
+    border-bottom: 1px dashed #dee2e6 !important;
+}
+.card-footer p,.card-footer p>span{
+    font-size: 16px;
+}
+h5{
+    background: #ccc;
+}
+.card-footer p button{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}

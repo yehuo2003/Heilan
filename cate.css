@@ -1,0 +1,62 @@
+.my_border img{
+    width: 172px;
+    height: 172px;
+}
+.my_border span{
+    color: #ff5200;
+}
+ul>li>a{
+    font-weight: bold;
+    font-size: 14px;
+}
+ul>li{
+    margin: 10px;
+    text-align: start;
+}
+.bg-dark{
+    width: 188px;
+    height: 40px;
+}
+.bg-dark>p{
+    line-height: 40px;
+}
+.my_border{
+    width: 188px;
+    border:1px solid #ccc;
+}
+.card-header>a{
+    font-size: 16px;
+}
+div.col-8>h5{
+    border: 1px solid #eee;
+    font-size: 16px;
+    margin-top: 40px;
+}
+ul>li>a.bg-white{
+    border:1px solid #ddd;
+    padding-left: 2px;
+}
+ul>li>span{
+    font-size: 14px;
+}
+.card-body img{
+    width: 185px;
+}
+.card-body span{
+    color: #FF0000;
+}
+.card-body>div{
+    width: 185px;
+    margin: 5px;
+}
+.card-footer a{
+    top: 7px;
+    left: 10px;
+}
+.card-footer ul{
+    left: 500px;
+    bottom: 20px;
+}
+.card-footer{
+    height: 35px;
+}
