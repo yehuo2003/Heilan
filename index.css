@@ -1,8 +1,113 @@
-.my_header{
-    width: 100%;
-    height: 11rem;
+.container {
+    min-width: 100% !important;
 }
-.my_footer{
-    width: 100%;
-    height: 23rem;
+/*轮播图的指示器样式*/
+#my_car .carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 6px;
 }
+.my_border{
+    height: 500px;
+    width: 1265px;
+    border:1px solid #ccc;
+}
+.my_border ul>a{
+    color: #727272;
+    font-weight: bold;
+    font-size: 21px;
+    padding-right: 72px;
+    padding-left: 88px;
+}
+.my_bg1{
+    width: 1265px;
+    position: relative;
+    left: 90px;
+}
+#myScrollspy{
+    background:url("../img/index/bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.my_bg2{
+    position: relative;
+    background: #fff;
+    top:1000px;
+}
+.my_bg2>a,.my_bg3>a{
+    display: block;
+    position: relative;
+}
+.my_bg2>a:nth-child(1){
+    top: -109px;
+    left: 295px;
+}
+.my_bg2>a:nth-child(2){
+    top: -410px;
+    left: 329px;
+}
+.my_bg2>a:nth-child(3){
+    align-content: center;
+    top: -330px;
+    left: 294px;
+}
+.my_bg2>a:nth-child(4){
+    align-content: center;
+    top: -235px;
+    left: 294px;
+}
+.my_bg2>a:nth-child(5){
+    bottom: -630px;
+    right: 695px;
+}
+.my_bg2>a:nth-child(6){
+    top: -119px;
+    left: 772px;
+}
+.my_bg2>a:nth-child(7){
+    bottom: -338px;
+    right: 217px;
+}
+.my_bg2>a:nth-child(8){
+    bottom: -338px;
+    right: 217px;
+}
+.my_bg3{
+    position: relative;
+    background: #fff;
+    top:1000px;
+    height: 1000px;
+}
+.my_bg3>img{
+    position: relative;
+    align-content: center;
+    top: -2px;
+    left: 640px;
+}
+.my_car2{
+    position: relative;
+    top: 100px;
+    width: 1200px;
+    animation: switch 5s ease-out infinite;
+}
+.my_car2>a{
+  float: left;
+  display: block;
+  position: relative;
+}
+.my_car2>a:nth-child(1){
+    left: 430px;
+    z-index: 2;
+}
+.my_car2>a:nth-child(2) {
+    top:-605px;
+}
+.my_car2>a:nth-child(3){
+    left: -535px;
+    top: 200px;
+}
+
+
