@@ -30,12 +30,16 @@
 .card-body p{
     width: 250px;
 }
-.card-body button{
+.my_btn3{
     border: 1px solid #aaa;
     color: #aaa;
 }
 .card-body input{
     height: 29px;
+}
+.card-body>div .btn-danger>img{
+    width: 20px;
+    height: 20px;
 }
 .my_line_height{
     line-height: 110px;

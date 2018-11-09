@@ -52,7 +52,7 @@ table tr td a.ml-5{
     font-size: 14px;
     color: #222;
 }
-table th>div.text-center>input{
+table th>div.text-center>button{
     width: 180px;
     height: 40px;
     font-size: 16px;
