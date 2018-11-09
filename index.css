@@ -78,7 +78,6 @@
 .my_bg3{
     position: relative;
     background: #fff;
-    top:1000px;
     height: 1000px;
 }
 .my_bg3>img{
@@ -87,27 +86,77 @@
     top: -2px;
     left: 640px;
 }
-.my_car2{
+#my_car2{
+    top: -550px;
+}
+.my_bg3>div>p>img{
+    width: 80%;
+    opacity: 0.5;
+}
+.my_bg3>div>p:nth-child(1){
     position: relative;
-    top: 100px;
-    width: 1200px;
-    animation: switch 5s ease-out infinite;
+    top: 180px;
+    left: -72px;
 }
-.my_car2>a{
-  float: left;
-  display: block;
-  position: relative;
+.my_bg3>div>p:nth-child(2){
+    position: relative;
+    top: 180px;
+    left: 362px;
 }
-.my_car2>a:nth-child(1){
-    left: 430px;
-    z-index: 2;
+#my_bg4{
+    height: 1000px;
+    border-bottom: 1px solid #eee;
 }
-.my_car2>a:nth-child(2) {
-    top:-605px;
+#my_bg4>a{
+    display: block;
+    width: 400px;
+    height: 374px;
+    position: relative;
 }
-.my_car2>a:nth-child(3){
-    left: -535px;
-    top: 200px;
+#my_bg4>a:nth-child(1){
+    left: 106px;
 }
+#my_bg4>a:nth-child(2){
+    left: 18px;
+}
+#my_bg4>a:nth-child(3){
+    right:83px;
+}
+#my_bg4>a:nth-child(4){
+    left: 103px;
+    bottom: 91px;
+}
+#my_bg4>a:nth-child(5){
+    left: 19px;
+    bottom: -68px;
+}
+#my_bg4>a:nth-child(6){
+    left: -75px;
+    bottom: 91px;
+
+}
+#my_bg4 img{-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    transition:all .5s linear;
+}
+#my_bg4 img:hover{-webkit-filter: grayscale(0); /* Chrome, Safari, Opera */
+    filter: grayscale(0);}
+#my_bg5>div>ul>li>a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+#my_bg5>a{
+    margin-left: 216px;
+}
+.my_bg6{
+    height: 200px;
+}
+.my_bg6>a{
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+
 
 
