@@ -127,29 +127,29 @@
             <div>
                 <a href="#" class="h4 font-weight-bold">2018秋季特卖</a>
                 <ul class="list-unstyled ml-3 mb-5">
-                    <li><a href="#">衬衫</a></li>
-                    <li><a href="#">大衣</a></li>
-                    <li><a href="#">型男外套</a></li>
-                    <li><a href="#">个性卫衣</a></li>
-                    <li><a href="#">长袖T恤</a></li>
-                    <li><a href="#">夹克</a></li>
-                    <li><a href="#">针织衫/毛衫</a></li>
-                    <li><a href="#">牛仔裤</a></li>
-                    <li><a href="#">休闲裤</a></li>
-                    <li><a href="#">西服</a></li>
+                    <li><a href="cate.html">衬衫</a></li>
+                    <li><a href="cate.html">大衣</a></li>
+                    <li><a href="cate.html">型男外套</a></li>
+                    <li><a href="cate.html">个性卫衣</a></li>
+                    <li><a href="cate.html">长袖T恤</a></li>
+                    <li><a href="cate.html">夹克</a></li>
+                    <li><a href="cate.html">针织衫/毛衫</a></li>
+                    <li><a href="cate.html">牛仔裤</a></li>
+                    <li><a href="cate.html">休闲裤</a></li>
+                    <li><a href="cate.html">西服</a></li>
                 </ul>
                 <a href="#" class="h4 font-weight-bold">2018冬季新品</a>
                 <ul class="list-unstyled ml-3">
-                    <li><a href="#">羽绒服</a></li>
-                    <li><a href="#">保暖衬衫</a></li>
-                    <li><a href="#">型男外套</a></li>
-                    <li><a href="#">个性卫衣</a></li>
-                    <li><a href="#">大衣</a></li>
-                    <li><a href="#">夹克</a></li>
-                    <li><a href="#">针织衫/毛衫</a></li>
-                    <li><a href="#">牛仔裤</a></li>
-                    <li><a href="#">休闲裤</a></li>
-                    <li><a href="#">西服</a></li>
+                    <li><a href="cate.html">羽绒服</a></li>
+                    <li><a href="cate.html">保暖衬衫</a></li>
+                    <li><a href="cate.html">型男外套</a></li>
+                    <li><a href="cate.html">个性卫衣</a></li>
+                    <li><a href="cate.html">大衣</a></li>
+                    <li><a href="cate.html">夹克</a></li>
+                    <li><a href="cate.html">针织衫/毛衫</a></li>
+                    <li><a href="cate.html">牛仔裤</a></li>
+                    <li><a href="cate.html">休闲裤</a></li>
+                    <li><a href="cate.html">西服</a></li>
                 </ul>
             </div>
               <!-- 热销排行-->
@@ -186,16 +186,22 @@
             </div>
           </div>
           <!-- 中间商品介绍-->
-          <div class="col-9 pl-4">
-             <div class="card">
-                 <div class="card-header">
-                     <a href="#">商品详情</a>
+          <div class="col-9 pl-4 productDetail">
+             <ul id="myTab" class="nav nav-tabs">
+                 <li class="active">
+                     <a href="#coll-one" data-toggle="tab">商品详情</a>
                      <b>|</b>
-                     <a href="#">累计评价 (0)</a>
+                 </li>
+                 <li class="dropdown">
+                     <a href="#coll-two" data-toggle="tab">累计评价 (0)</a>
                      <b>|</b>
-                     <a href="#">疑难提问</a>
-                 </div>
-                 <div class="card-body">
+                 </li>
+                 <li class="dropdown pt-1">
+                     <a href="#coll-three" data-toggle="tab">疑难提问</a>
+                 </li>
+             </ul>
+               <div id="myTabContent" class="tab-content">
+                 <div id="coll-one" class="tab-pane fade in active">
                      <img src="img/goods/img1/O1CN011D59QBOjThD682y_!!693060164.jpg"/>
                      <img src="img/goods/img1/O1CN011D59Q95VygDsE99_!!693060164.jpg"/>
                      <img src="img/goods/img1/5b534bacN4c758fc5.jpg"/>
@@ -218,7 +224,19 @@
                      <img src="img/goods/img1/big15.jpg"/>
                      <img src="img/goods/img1/big16.jpg"/>
                  </div>
-             </div>
+              <!-- 累计评价-->
+                 <div id="coll-three" class="tab-pane fade">
+                     <p>温馨提示：为了您的个人信息安全，请勿在留言中透露联系方式。且每位咨询者购买情况、提问时间等不同，为此以下回复仅对提问者3天内有效，其他网友仅供参考！若由此给您带来不便请多多谅解，谢谢！</p>
+                     <textarea class="form-control" rows="5"></textarea>
+                     <p><button class="btn btn-danger mt-2">提交问题</button></p>
+                 </div>
+              <!-- 疑难提问-->
+                 <div id="coll-two" class="tab-pane fade">
+                     <h4>用户评价</h4>
+                     <img src="img/goods/img1/2018-11-10_004428.png"/>
+                 </div>
+               </div>
+
           </div>
       </div>
    </div>
