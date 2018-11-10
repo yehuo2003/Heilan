@@ -1,0 +1,44 @@
+.card img{
+    padding-right: 5px;
+}
+.parent .card-header>a{
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+}
+.parent .card-body li{
+    font-size: 13px;
+    color: #777;
+}
+.parent .card-body li>a:hover{
+    color: darkred;
+}
+.list-group-item{
+    border: 2px solid #F6E7D4;
+    padding: 0.5rem 1.25rem;
+}
+div.mt-5>h6{
+    border: 1px solid #ccc;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 5px;
+}
+.bt h5{
+    background: #f6f6f6;
+    line-height: 35px;
+    font-weight: bold;
+    margin-left: 0 !important;
+    padding-left: 15px;
+}
+div.faq h5{
+    font-weight: bold;
+    margin: 20px;
+}
+div.faq p{
+    text-indent:25px;
+    font-size: 14px;
+}
+div.faq img{
+    width: 80%;
+    margin-left: 25px;
+}

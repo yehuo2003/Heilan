@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>海澜之家——帮助中心</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/faq.css"/>
+</head>
+<body>
+<!--引入头部-->
+<header>
+    <iframe src="header.html" frameborder="0" scrolling="no" class="my_header"></iframe>
+</header>
+<div class="container">
+    <!--指南导航-->
+    <div class="row">
+        <div class="col-sm-12">
+            <nav class="breadcrumb">
+                <span href="#" class="breadcrumb-item">首页</span>
+                <span href="#" class="breadcrumb-item my_must">帮助中心</span>
+                <span href="#" class="breadcrumb-item my_must">新手指南</span>
+            </nav>
+            <hr/>
+        </div>
+    </div>
+    <!-- 左边新手指南列表，右边服务条款-->
+    <div class="row">
+        <div class="col-2">
+            <!-- 新手指南手风琴列表-->
+            <div class="parent text-left">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#coll-1" data-toggle="collapse" class="card-link"><img src="img/faq/r.jpg"/>新手指南</a>
+                    </div>
+                    <div id="coll-1" class="collapse" data-parent="#parent">
+                        <ul class="card-body list-group p-0">
+                            <li class="list-group-item list-group-item-light"><a href="#faq-1" data-toggle="collapse"><img src="img/faq/service.jpg"/>用户注册</a></li>
+                            <li class="list-group-item list-group-item-light"><a href="#faq-2" data-toggle="collapse"><img src="img/faq/service.jpg"/>服务条款</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#coll-2" data-toggle="collapse" class="card-link"><img src="img/faq/r.jpg"/>购物指南</a>
+                    </div>
+                    <div id="coll-2" class="collapse" data-parent="#parent">
+                        <ul class="card-body list-group p-0">
+                            <li class="list-group-item list-group-item-light"><a href="#faq-3" data-toggle="collapse"><img src="img/faq/service.jpg"/>购物流程</a></li>
+                            <li class="list-group-item list-group-item-light"><a href="#faq-4" data-toggle="collapse"><img src="img/faq/service.jpg"/>订单查询</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#coll-3" data-toggle="collapse" class="card-link"><img src="img/faq/r.jpg"/>配送方式</a>
+                    </div>
+                    <div id="coll-3" class="collapse" data-parent="#parent">
+                        <ul class="card-body list-group p-0">
+                            <li class="list-group-item list-group-item-light"><a href="#faq-5" data-toggle="collapse"><img src="img/faq/service.jpg"/>配送城市和费用</a></li>
+                            <li class="list-group-item list-group-item-light"><a href="#faq-6" data-toggle="collapse"><img src="img/faq/service.jpg"/>商品验货和签收</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#coll-4" data-toggle="collapse" class="card-link"><img src="img/faq/r.jpg"/>支付方式</a>
+                    </div>
+                    <div id="coll-4" class="collapse" data-parent="#parent">
+                        <ul class="card-body list-group p-0">
+                            <li class="list-group-item list-group-item-light"><a href="#faq-7" data-toggle="collapse"><img src="img/faq/service.jpg"/>中国银联</a></li>
+                            <li class="list-group-item list-group-item-light"><a href="#faq-8" data-toggle="collapse"><img src="img/faq/service.jpg"/>支付宝</a></li>
+                            <li class="list-group-item list-group-item-light"><a href="#faq-9" data-toggle="collapse"><img src="img/faq/service.jpg"/>发票制度</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#coll-5" data-toggle="collapse" class="card-link"><img src="img/faq/r.jpg"/>售后服务</a>
+                    </div>
+                    <div id="coll-5" class="collapse" data-parent="#parent">
+                        <ul class="card-body list-group p-0">
+                            <li class="list-group-item list-group-item-light"><a href="#faq-10" data-toggle="collapse"><img src="img/faq/service.jpg"/>退换货政策</a></li>
+                            <li class="list-group-item list-group-item-light"><a href="#faq-11" data-toggle="collapse"><img src="img/faq/service.jpg"/>退换货流程</a></li>
+                            <li class="list-group-item list-group-item-light"><a href="#faq-12" data-toggle="collapse"><img src="img/faq/service.jpg"/>退款方式</a></li>
+                            <li class="list-group-item list-group-item-light"><a href="#faq-13" data-toggle="collapse"><img src="img/faq/service.jpg"/>隐私声明</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 热线邮箱-->
+                <div class="mt-5">
+                    <h6 class="mb-0 border-bottom-0">热线：13666990716</h6>
+                    <h6>邮箱：9208608@qq.com</h6>
+                </div>
+            </div>
+        </div>
+            <!-- 指南详情-->
+        <div class="col-10">
+            <!-- 内容-->
+         <div id="faq" class="faq pl-4 pb-5">
+            <div id="faq-1" class="collapse" data-parent="#faq">
+                <!-- 标题-->
+                <div class="bt mb-4">
+                    <h5>用户注册</h5>
+                </div>
+                <p>进入海澜之家网站后，点击页面左上方"新用户注册"，将出现新页面，可选择"用手机号码注册"根据提示内容输入注册账号、密码(密码 设置不要过于简单)、验证码等，确认无误后点击"提交"即可，注册用户名是唯一的。注册成功后，您可以到网站"我的海澜之家"进行个人信息的维护、更新。</p>
+                <img src="img/faq/zhuce0911.jpg"/>
+                <h5>电话注册</h5>
+                <p>您可致电海澜之家客服中心。订购产品过程中可以通过销售人员为您注册开户。热线：400-892-2001。</p>
+                <h5>快速登录</h5>
+                <p>如果您有新浪微博、腾讯、支付宝账号，可以免去注册的步骤，直接快速登录海澜之家。</p>
+                <img src="img/faq/9.jpg"/>
+            </div>
+
+            <div id="faq-2" class="collapse" data-parent="#faq">
+                <!-- 标题-->
+                <div class="bt mb-4">
+                    <h5>服务条款</h5>
+                </div>
+                    <h5>一、确认与接纳</h5>
+
+                    <p>海澜之家服饰股份有限公司是一家集男装生产、销售为一体的大型服装企业。海澜之家 品牌自2002年推出以来，以全国连锁、超大规模、男装自选的全新营销模式引发了中国服装市场的新一轮革命，其高品位、大众价的市场定位，款式多、品种全 的货品选择，无干扰、自由自在的"一站式"选购方式迅速赢得了广大消费者的喜爱，海澜之家因此被称为"男人的衣柜"。</p>
+
+
+                    <p>"海澜之家"（http://www.hlamall.cn/）是海澜之家服饰股 份有限公司系统整合了纺织服装供应链优势与电子商务运营经验、顺应互联网消费潮流应运而生组建了服装电子商务网站。海澜之家服饰股份有限公司及其涉及到的 产品、服务、相关软件的所有权和运营权归海澜之家服饰股份有限公司所有，海澜之家服饰股份有限公司享有对"海澜之家"一切活动的监督、提示、检查、纠正及 处罚权利。用户通过注册程序阅读本服务条款点击"提交"完成注册，或以任何行为实际使用、享受"海澜之家"的服务，即表示用户与海澜之家服饰股份有限公司 已达成协议，自愿接受本服务条款的所有内容。如用户不同意本服务条款的条件，则不能使用海澜之家服务以及注册成为"海澜之家"用户。
+
+            </div>
+
+            <div id="faq-3"  data-parent="#faq" class="collapse">
+                 <!-- 标题-->
+                 <div class="bt mb-4">
+                     <h5>购物流程</h5>
+                 </div>
+                 <h5>（1） 注册/登录</h5>
+                <p>Step.1进入海澜之家网站，点击左上方的"登录"按钮，进行登录，未曾注册过的新用户，点击"免费注册"按钮进行注册。</p>
+                <img src="img/faq/267302480061744192290000_x.jpg"/>
+                <p>Step.2 选择注册方式后，根据相关的提示内容填写注册信息，最后点击"提交"即可。</p>
+                <img src="img/faq/zhuce0911.jpg"/>
+                <p>Step.3 完成注册后，系统自动登录。您可以进入"我的海澜之家"编辑个人基本信息，或直接挑选所需购买的商品。</p>
+                <br/><br/><br/><br/><br/>
+                <h5>（2）挑选商品</h5>
+                <p>方法一、通过搜索功能查找。在搜索框中输入关键字、商品名称或商品编码进行搜索。</p>
+                <img src="img/faq/cs1.jpg"/>
+                <img src="img/faq/cs2.jpg"/>
+                <h5>（3） 加入购物车</h5>
+                <p>选中自己心仪的产品后，通过产品详情页，选择颜色、尺码，可将商品放入购物车。点击"去结算"进入购物车页面。</p>
+                <img src="img/faq/jl.jpg"/>
+                <h5>（4）结算</h5>
+                <p>Step.1进入购物车中核对您的商品。如您不需要再购买其他商品了，点击"结算"按钮，进入订单填写页面。</p>
+                <img src="img/faq/js.jpg"/>
+                <p>Step.2填写收货人姓名、收货地址和联系方式。以便货品的准确送达与签收。</p>
+                <img src="img/faq/dz.jpg"/>
+                <p>Step.3选择适合您的支付方式、配送时间，并点击"保存支付方式及配送方式"按钮。</p>
+                <p>Step.4在备注栏中可以填写您需要的补充说明，我们会尽量满足您合理的要求。</p>
+                <img src="img/faq/dz.jpg"/>
+                <h5>（5） 订单确认</h5>
+                <p>如果您选择的是银联在线支付，请选择适合您的支付通道，完成支付。如果您选择的是支付宝或财付通支付方式，直接进入各自的支付通道，完成支付即可。</p>
+                <img src="img/faq/fk.jpg"/>
+             </div>
+
+            <div id="faq-4"  data-parent="#faq" class="collapse">
+                 <!-- 标题-->
+                 <div class="bt mb-4">
+                     <h5>订单查询</h5>
+                     <p>为了方便您掌握订单状态，您可以访问我的海澜之家-全部订单查看所有订单的状态。</p>
+                     <p>如果您希望修改订单内容，可以致电海澜之家客户服务热线400-892-2001（仅收市话费），我们将竭诚为您服务。</p>
+                     <h5>温馨提示:</h5>
+                     <p>a) 修改商品信息：可以进行添加、删除或者修改商品的数量等操作；</p>
+                     <p>b) 修改配送等信息：可以进行配送地点、时间、收货人的操作；</p>
+                     <p>c) 取消订单：可以把现有的订单取消。</p>
+                 </div>
+             </div>
+
+            <div id="faq-5"  data-parent="#faq" class="collapse">
+                 <!-- 标题-->
+                 <div class="bt mb-4">
+                     <h5>服务条款</h5>
+                 </div>
+                <p>1、订购成功后，您可以通过我们给您发的确认邮件或登陆我们的网站在"我的海澜之家-全部订单"中查看订单信息。</p>
+                <p>2、为了确保商品及时准确地配送到您手中，请您在订购时填写详细的收货人信息及联系方式。</p>
+                <p>3、海澜之家快递默认顺丰、圆通、百世快递、EMS，对所陈列的商品提供满68包邮服务。</p>
+
+               <p>"EMS快递"的送达区域覆盖全国，送达时间如下：
+
+                <img src="img/faq/ditu.jpg"/>
+                <p>具体配送情况可登陆EMS网站输入邮件号码进行查询。</p>
+             </div>
+
+            <div id="faq-6"  data-parent="#faq" class="collapse">
+                 <!-- 标题-->
+                 <div class="bt mb-4">
+                     <h5>商品验货与签收</h5>
+                 </div>
+                <p>1、快递送货上门订单，请您务必当面对照发货单核对商品，如果出现商品数量短缺、外包装破损等情况，您可以当场办理整单商品的拒收。若订单中含有特惠品(及发票)，请一并退回。一旦您确认签字，我们将无法为您办理补发，如需办理退换货，请您按照HLASHOP退换货流程进行退换货。</p>
+                <p>  2、HLASHOP商品目前暂不提供开箱试穿服务，您可以在签收商品后进行试穿，如您收下货物后，发现质量问题，可以联系HLASHOP客服中心为您办理退换货业务。</p>
+             </div>
+
+            <div id="faq-7"  data-parent="#faq" class="collapse">
+                 <!-- 标题-->
+                 <div class="bt mb-4">
+                     <h5>中国银联</h5>
+                 </div>
+                <h5>在线支付</h5>
+                <p>海澜之家支持中国银联，支付宝，财付通等第三方支付服务。涵盖中国工商银行、招商银行、中国农业银行、中国建设银行、中国银行、交通银行、兴业银行、 中国民生银行、浦发银行、中国光大银行、中信银行、广发银行、华夏银行、兴业银行等银行在线付款，涵盖大部分银行发行的银行卡。</p>
+                <img src="img/faq/yl.jpg"/>
+                <p>到款时间网上支付均是支付成功即到账。若由于网络故障导致您已支付成功的订单未改变订单状态，请您联系我们的客服人员为您解决。
+
+                    客服热线：400-892-2001(免长途费)</p>
+                <h5>在线支付流程</h5>
+                <h5>1、 银联在线支付</h5>
+                <p>在结算页面选择"银联在线支付"，订单提交后，点击银联在线图标进入银联在线支付页面。</p>
+                <img src="img/faq/14.jpg"/>
+                <p>请根据您的实际情况选择借记卡或者信用卡，依照网页提示输入认证信息，完成支付。请用户安装银联在线支付需要的浏览器插件并且尽量使用IE浏览器完成支付。</p>
+                <img src="img/faq/15.jpg"/>
+                <p>2.支付宝</p>
+                <img src="img/faq/16.jpg"/>
+                <p>填写支付宝帐号和支付密码或者选择其他网上银行完成支付。</p>
+                <img src="img/faq/17.jpg"/>
+             </div>
+
+            <div id="faq-8"  data-parent="#faq" class="collapse">
+                <!-- 标题-->
+                <div class="bt mb-4">
+                    <h5>中国银联</h5>
+                </div>
+                <h5>在线支付</h5>
+                <p>海澜之家支持中国银联，支付宝，财付通等第三方支付服务。涵盖中国工商银行、招商银行、中国农业银行、中国建设银行、中国银行、交通银行、兴业银行、 中国民生银行、浦发银行、中国光大银行、中信银行、广发银行、华夏银行、兴业银行等银行在线付款，涵盖大部分银行发行的银行卡。</p>
+                <img src="img/faq/yl.jpg"/>
+                <p>到款时间网上支付均是支付成功即到账。若由于网络故障导致您已支付成功的订单未改变订单状态，请您联系我们的客服人员为您解决。
+
+                    客服热线：400-892-2001(免长途费)</p>
+                <h5>在线支付流程</h5>
+                <h5>1、 银联在线支付</h5>
+                <p>在结算页面选择"银联在线支付"，订单提交后，点击银联在线图标进入银联在线支付页面。</p>
+                <img src="img/faq/14.jpg"/>
+                <p>请根据您的实际情况选择借记卡或者信用卡，依照网页提示输入认证信息，完成支付。请用户安装银联在线支付需要的浏览器插件并且尽量使用IE浏览器完成支付。</p>
+                <img src="img/faq/15.jpg"/>
+                <p>2.支付宝</p>
+                <img src="img/faq/16.jpg"/>
+                <p>填写支付宝帐号和支付密码或者选择其他网上银行完成支付。</p>
+                <img src="img/faq/17.jpg"/>
+             </div>
+
+            <div id="faq-9"  data-parent="#faq" class="collapse">
+                 <!-- 标题-->
+                 <div class="bt mb-4">
+                     <h5>发票制度</h5>
+                 </div>
+                <pre>
+                    1.如何获得发票
+
+获得发票的方式：
+
+如您在网站订购，请在提交订单前在"您是否需要开具发票"处选择"是"，并填写发票抬头。发票将随产品一同送达。
+
+说明：
+
+（1）HLASHOP提供的发票为通用机打发票。
+
+（2）一张订单对应一张发票，发票会随每次包裹一起发出。
+
+
+2.开发票的注意事项
+
+（1）发票金额不能高于订单金额。
+
+（2）非现金虚拟账户支付的金额不开发票。
+
+
+3.发票抬头
+
+发票抬头内容不能为空，您可写个人或公司名称。
+
+
+4.发票内容：
+
+服装
+
+
+5.补发票说明
+
+（1）发票可以补50天之内订购的订单。
+
+（2）补开发票需提供"HLASHOP发货单"或详细的订购信息。
+
+（3）请您提供正确的地址，我们会在补开发票后以挂号信方式为您寄出，同时会通过短信或邮件形式告知您，请您注意查收。
+
+（4）收到发票后如发现发票抬头、内容或金额等与您下订单时所填写的项目不符，请先与客服中心联系确认后，将原发票退回HLASHOP才予以重开。
+
+
+您可将原发票寄至以下地址：江苏省江阴市新桥海澜服装工业城储运中心21#仓库2楼 邮编：214426
+                </pre>
+             </div>
+
+            <div id="faq-10"  data-parent="#faq" class="collapse">
+                <div class="bt mb-4">
+                    <h5>退换货政策</h5>
+                </div>
+                <pre>
+                    退换货承诺：
+
+自客户签收产品之日起7日内，产品在未经穿着、洗涤熨烫、污损、加工（扦边或自行修改尺码等）的情况下，如您对我们的产品不满意，我们将提供退换货的服务。
+
+
+退换货基本条件：
+
+对全部商品：
+
+外包装完整，且不影响二次销售。一旦拆封无法复原商品不可退货（质量问题除外）。
+
+若交易已完成，发现质量问题，请在交易完成后15天内进行退款申请。
+
+退款时买家需将发票和赠品一起退回。
+
+
+不可退换货特殊说明:
+
+无质量问题且外包装已拆无法复原，影响二次销售。
+
+人为刻意损害或不可抗力导致的损坏。
+
+非海澜之家店铺出售的商品或已超出退换货期限的商品（7天无理由退货以签收日为准起始7日之内）。
+
+商品的图片及信息仅供参考。因拍摄灯光及不同显示器色差等问题可能造成商品图片与实物有细微色差。
+
+
+退换货商品退回方式说明：
+
+1、海澜之家确认您的需求后，系统会自动为您保留库存7天，请务必于7天内将商品退回至海澜之家库房，7天后库存将自动释放。
+
+2、退回商品时，请将商品、发货单、发票一起退回海澜之家仓库。
+
+3、快件寄到后，我们会对退回的商品进行质检，再根据需求进行退换货操作。
+
+4、因库房无法接收到付，为了保证您的货物尽快到达海澜之家，请先行垫付运费（若是买家原因退货，由买家自行承担退货费用；若是商品质量问题、描述不符而导致的退货，退货费用则应由店铺承担），我们会在退款时将您垫付的邮费一并寄回。
+
+
+特殊说明：
+
+1. 套装产品不可部分退货。
+
+2. 订单中有特惠品退货时，需将特惠品一同退回。如特惠品一经拆包或使用，则订单产品只换不退。如有不便，敬请谅解。
+
+3. 退货需要退回发票及产品发货单，请于购买产品后妥善保管购物发票及产品发货单，如因客户原因无法退回发票或产品发货单的，将可能导致无法进行退货，因此而产生的不利后果，将会由您承担。
+
+4. 发生换货时，只能更换同一系列产品（包括同一系列不同颜色、尺码，相同颜色、尺码），不提供不同类产品的换货服务。
+
+5. 客户可以至当地海澜之家专卖店进行换货（等价或高于原价），不找零，概不退货。
+
+6. 除产品质量问题外，客户邮寄、快递产品到HLASHOP所产生的费用将一律由客户个人承担；无论因何种原因，HLASHOP提供一次且仅提供一次免费送货服务。
+
+7. 通常情况下，一张订单只能进行一次退换货操作，所以为了确保您的权益，请您考虑周全后与我们联系。
+
+8. 图片及信息仅供参照，产品将以实物为准。因为拍摄灯光及不同显示器色差等问题可能造成产品图片与实物有一定色差，不属质量问题。
+                </pre>
+            </div>
+
+            <div id="faq-11"  data-parent="#faq" class="collapse">
+                 <div class="bt mb-4">
+                     <h5>退换货流程</h5>
+                 </div>
+                <img src="img/faq/18.jpg"/>
+                <pre>
+                    1. 办理退货前，请联系客服，告知您的订单号或会员信息及退换货原因、联系方式等，我们会竭诚为您解决相关问题。如事先未联系客服，可能将影响
+
+您的退换货办理。
+客服电话：400-892-2001
+
+2. 请您联系客服后，严格按以下步骤进行操作：
+
+1）首先请务必正确填写退货(快递单)单上各类信息，包括：
+a、您的姓名、地址、联系方式
+b、您的订单号码
+c、办理退货还是换货
+d、办理退换货的产品名称及数量、退/换货原因
+如以上信息缺失，可能造成我们无法为您办理退换货事宜；同时，您应保证您所填写的信息是真实、准确、合法的且不会侵犯任何第三方的合法权
+
+益，如因您填写资料有误，而导致无法退换货、延误退换货或导致其他合法第三方争议的，HLASHOP不承担责任；如因此而导致第三方向
+
+HLASHOP主张权利的，HLASHOP保留向您追偿的一切权利。
+
+2）请将需退换的产品、原包装内的产品发货单及发票(如果有)，通过可查询的快递方式(EMS快递，顺风，中通，汇通等)寄送至HLASHOP，如退换
+
+货单及发票(如果有)未随货物一并返还，可能造成我们无法或者延误为您办理退换货；如果您使用了不可查询的邮寄/快递手段退回产品，一旦发生产
+
+品遗失、破损、误送等情况，HLASHOP不承担责任，敬请谅解。
+
+3）我们收到您的包裹后，会对您退回的产品进行质检，然后根据您的要求进行退换货操作。
+
+若办理换货，正常情况下我们会在收到您的包裹48小时内，将您需要的产品发出，若您需要的产品缺货，我们会在第一时间联系您，经您同意的情况
+
+下更换为其它产品或根据您的要求，进行退货处理。
+
+4）退/换货包裹接收地址
+地址：江苏省江阴市新桥镇海澜之家服装工业城储运中心21#仓库二楼
+邮编：214426
+收货人：电商库
+联系电话：400-892-2001
+
+
+3. 因产品质量问题（非人为损坏）造成的退、换货，由您先垫付运费寄回，后续报销相应的运费，拒收到付件货平邮（请您注意使用合理的方式进行邮
+寄或快递，HLASHOP为您承担的邮寄或快递费用上限原则上不超过HLASHOP向您收取的货物运费金额）。
+
+
+                </pre>
+             </div>
+
+            <div id="faq-12"  data-parent="#faq" class="collapse">
+                 <div class="bt mb-4">
+                     <h5>退款方式</h5>
+                 </div>
+                <pre>
+                    发生退货后，并在我们的工作人员核实下会为您办理退款，我们将会使用您原订单的支付方式进行退回。
+
+
+说明：
+
+采用这两种方式退款到达您的帐户会需要一定的时间，银行转帐会根据不同银行间跨行转账的到账期而不同，邮局汇款则可能因邮局地域之间差异而不同。
+
+
+                </pre>
+
+                <img src="img/faq/zf.jpg"/>
+             </div>
+
+            <div id="faq-13"  data-parent="#faq" class="collapse">
+                 <div class="bt mb-4">
+                     <h5>隐私申明</h5>
+                 </div>
+                <pre>
+                    欢迎访问海澜之家购物网站（www.hlamall.cn，以下简称HLASHOP）！本隐私声明是我们对访问者隐私保护的许诺，也是我们对如何收集和使用访问者提供的信息作出的规定。您成为HLASHOP用户前必须阅读并同意本隐私声明的条款。我们的隐私声明正在不断改进中，随着HLASHOP服务范围的扩大，我们会随时更新我们的隐私声明。我们欢迎您随时查看本声明，并欢迎您向400-892-2001反馈您的意见。
+
+若您在注册时接受HLASHOP服务协议，即表示您已同意我们按本隐私声明所述方式使用和披露您的个人信息。本隐私申明的全部条款属于该协议的一部份。
+
+
+未成年人的特别注意事项
+如果您未满18周岁，您无权使用HLASHOP的服务，因此我们强烈请求您不要向我们提供任何个人信息，如果您确实需要使用HLASHOP的服务，您只能在父母或监护人的陪同下才可以使用相关服务。
+
+
+用户名和密码
+
+当您打算注册成用户后，我们要求您选择一个用户名和密码，还要提供密码提示问题及其答案以便在您丢失密码后我们可以确认您的身份。您只能通过您的密码来使用您的帐号。如果您泄漏了密码，您可能丢失了您的个人识别信息，并且有可能导致对您不利的司法行为。因此不管任何原因使您的密码安全受到危及，您应该立即通过service@heilanhome.com和我们取得联系。
+
+
+注册信息
+
+当您在注册为用户时，我们要求您填写一张注册表。注册表要求提供您的真实姓名，地址，国籍，电话号码，和电子邮件地址。如果您是公司客户，您还被要求提供您的公司的地址，电话号码和贵公司的服务和产品的简短说明。您还有权选择来填写附加信息。这些信息可能包括您公司所在的省份和城市，时区和邮政编码，传真号码，主页和您的职务。我们使用注册信息来获得用户的统计资料。我们将会用这些统计数据来给我们的用户分类，以便有针对性地向我们的用户提供新的服务。我们会通过您的邮件地址来通知您这些新的服务。我们也会通过短信的方式向您发布产品和市场活动信息。如果您不希望收到此类信息，请及时致电400通知我们的客服人员。
+
+
+您的交易行为
+
+我们跟踪IP地址仅仅只是为了安全的必要。如果我们没有发现任何安全问题，我们会及时删除我们收集到的IP地址。我们还跟踪全天的页面访问数据。全天页面访问数据被用来反映网站的流量，我们可以为未来的发展制定计划（例如，增加服务器）。
+
+
+Cookie的使用
+
+我们使用cookie来使我们的网站对用户更友好。它可以帮您省去为使用我们的服务而重复输入注册信息和跟踪您的浏览器的状态。
+
+
+第三方
+
+我们不会向任何第三方提供，出售，出租，分享和交易用户的个人信息，除非第三方和HLASHOP一起为网站和用户提供服务并且在该服务结束后已将被禁止访问包括其以前能够访问的所有这些资料。当我们被法律强制或依照政府要求提供您的信息时我们将善意地披露您的资料。
+
+
+信息的存储和交换
+
+用户信息和资料被收集和存储在放置于中国的服务器上。只有为了做备份的需要时，我们才可能需要将您的资料传送到别国的服务器上。
+
+
+外部链接
+
+本站含有到其他网站的链接。HLASHOP对那些网站的隐私保护措施不负任何责任。我们可能在任何需要的时候增加商业伙伴或共用品牌的网站，但是提供给他们的将仅仅是综合信息，我们将不会公开您的身份。
+
+
+安全
+
+我们网站有相应的安全措施来确保我们掌握的信息不丢失，不被滥用和变造。这些安全措施包括向其它服务器备份数据和对用户密码加密。尽管我们有这些安全措施，但请注意在因特网上不存在"完善的安全措施"。
+
+
+修改您的资料
+
+您可以随时在成功登录HLASHOP之后修改或者更新你的个人信息和密码。
+
+
+联系我们
+
+如果你对本隐私声明或HLASHOP的隐私保护措施以及您在使用中的问题有任何意见和建议请和我们联系：13666990716。
+                </pre>
+             </div>
+         </div>
+        </div>
+    </div>
+</div>
+<!--引入尾部-->
+<footer>
+    <iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
+</footer>
+</body>
+</html>
