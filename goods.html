@@ -16,6 +16,7 @@
 <header>
     <iframe src="header.html" frameborder="0" scrolling="no" class="my_header"></iframe>
 </header>
+<input type="button" id="btn" value="   (护眼模式预留)开/关"/>
 <div class="container">
     <!-- 商品列表，左大图 右边还买过列表-->
   <div class="row mt-5">
@@ -277,5 +278,11 @@
 <footer>
     <iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
 </footer>
+<script>
+    var bd = document.body;
+    document.getElementById("btn").onclick = function () {
+     bd.className = bd.className != "cls" ? "cls" : "";
+    }
+</script>
 </body>
 </html>

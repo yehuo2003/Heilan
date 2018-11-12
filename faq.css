@@ -5,6 +5,7 @@
     font-size: 13px;
     color: #333;
     font-weight: bold;
+    display: block;
 }
 .parent .card-body li{
     font-size: 13px;
@@ -22,6 +23,9 @@ div.mt-5>h6{
     line-height: 30px;
     text-align: left;
     padding-left: 5px;
+}
+div.mt-5{
+    margin-bottom: 500px;
 }
 .bt h5{
     background: #f6f6f6;

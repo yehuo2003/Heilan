@@ -119,3 +119,10 @@ ul>li{
     width: 100%;
     padding-left: 10px;
 }
+.fade.in{
+    opacity: 1;
+}
+.cls{
+    background: #333;
+    color: #fff;
+}
