@@ -5,9 +5,6 @@
     <title>海澜之家——首页</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css"/>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/index.css"/>
 </head>
@@ -80,48 +77,19 @@
         <!-- 精选专题-->
         <img src="img/index/O1CN011D59PGriaJuapBW_!!693060164.png"/>
         <!-- 四张轮播-->
-      <div class="d-flex">
-        <p>
-         <img src="img/index/O1CN011D59PNCoPr2UESx_!!693060164.jpg"/>
-        </p>
-        <p>
-        <img src="img/index/O1CN011D59QJtu9jCRRep_!!693060164.jpg"/>
-        </p>
-      </div>
-        <div id="my_car2" class="carousel slide text-center mt-5 pt-5" data-ride="carousel">
+        <div id="slide" class="slide position-relative">
             <!-- 轮播的图片-->
-            <div>
-               <div class="carousel-item active">
-                <a href="#">
-                    <img src="img/index/O1CN011D59QIFprNXRHjE_!!693060164.jpg"/>
-                </a>
-               </div>
-
-               <div class="carousel-item">
-                <a href="#">
-                    <img src="img/index/O1CN011D59PNCoPr2UESx_!!693060164.jpg"/>
-                </a>
-               </div>
-
-               <div class="carousel-item">
-                    <a href="#">
-                        <img src="img/index/O1CN011D59PMMJeUg9JFx_!!693060164.jpg"/>
-                    </a>
-                </div>
-
-               <div class="carousel-item">
-                    <a href="#">
-                        <img src="img/index/O1CN011D59QJtu9jCRRep_!!693060164.jpg"/>
-                    </a>
-                </div>
-            </div>
+            <ul class="list-unstyled">
+                <li><a href="#"><img src="img/index/O1CN011D59QIFprNXRHjE_!!693060164.jpg" alt="0"/></a></li>
+                <li><a href="#"><img src="img/index/O1CN011D59QJtu9jCRRep_!!693060164.jpg" alt="1"/></a></li>
+                <li><a href="#"><img src="img/index/5bea2a3bNd48cc0f7.jpg" alt="2"/></a></li>
+                <li><a href="#"><img src="img/index/O1CN011D59PMMJeUg9JFx_!!693060164.jpg" alt="3"/></a></li>
+            </ul>
                 <!-- 左右切换按钮 -->
-                <a class="carousel-control-prev" href="#my_car2" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#my_car2" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
+            <div class="arrow" id="arrow">
+                <a href="javascript:;" class="prev" id="arrLeft"><img src="img/index/prev.png" alt="prev"/></a>
+                <a href="javascript:;" class="next" id="arrRight"><img src="img/index/next.png" alt="next"/></a>
+            </div>
         </div>
     </div>
       <!-- 更多精选专题-->
@@ -192,5 +160,10 @@
 <footer>
     <iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
 </footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>

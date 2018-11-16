@@ -1,7 +1,6 @@
 .container {
     min-width: 100% !important;
 }
-/*轮播图的指示器样式*/
 #my_car .carousel-indicators li{
     width: 20px;
     height: 20px;
@@ -86,22 +85,30 @@
     top: -2px;
     left: 640px;
 }
-#my_car2{
-    top: -550px;
+.slide li{
+    position: absolute;
+    left:200px;
+    top:0;
 }
-.my_bg3>div>p>img{
-    width: 80%;
-    opacity: 0.5;
+.slide li img{
+    width:100%;
 }
-.my_bg3>div>p:nth-child(1){
-    position: relative;
-    top: 180px;
-    left: -72px;
+.arrow{
+    opacity: 0;
 }
-.my_bg3>div>p:nth-child(2){
-    position: relative;
-    top: 180px;
-    left: 362px;
+.prev,.next{
+    top: 320px;
+    position: absolute;
+    z-index: 99;
+}
+.arrow>a>img{
+    width: 50px;
+}
+.prev{
+    left: 34px;
+}
+.next{
+    right: 36px;
 }
 #my_bg4{
     height: 1000px;
