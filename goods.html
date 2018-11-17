@@ -5,9 +5,6 @@
     <title>海澜之家——商品详情</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css"/>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/goods.css"/>
 </head>
@@ -49,7 +46,7 @@
                   <tr>
                       <th>颜色</th>
                       <td>
-                          <img src="img/goods/img1/HNZWJ3E081A_21331_1--w_34_h_34.jpg"/>
+                          <img src="img/goods/img1/HNZWJ3E081A_21331_1--w_34_h_34.jpg" class="addImg"/>
                       </td>
                   </tr>
                   <tr>
@@ -278,11 +275,10 @@
 <footer>
     <iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
 </footer>
-<script>
-    var bd = document.body;
-    document.getElementById("btn").onclick = function () {
-     bd.className = bd.className != "cls" ? "cls" : "";
-    }
-</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/goods.js"></script>
 </body>
 </html>
