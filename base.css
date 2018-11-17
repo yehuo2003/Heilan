@@ -14,10 +14,16 @@ a{
 }
 .my_footer{
     width: 100%;
-    height: 23rem;
+    height: 29rem !important;
 }
 .my_must{
     color: #999;
+}
+.my_gray{
+    color: #aaa;
+}
+.my_border{
+    border:1px solid #aaa;
 }
 .breadcrumb{
     background: #ffffff;
