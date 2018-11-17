@@ -28,14 +28,14 @@ var config = [
         zIndex: 3
     },//3
 ];
-//Ò³Ãæ¼ÓÔØµÄÊÂ¼ş
+//é¡µé¢åŠ è½½çš„äº‹ä»¶
 window.onload = function () {
-    var flag = true;//¼ÙÉèËùÓĞµÄ¶¯»­Ö´ĞĞÍê±ÏÁË¡ª¡ªËø
-    //1.Í¼Æ¬É¢¿ª
+    var flag = true;//å‡è®¾æ‰€æœ‰çš„åŠ¨ç”»æ‰§è¡Œå®Œæ¯•äº†â€”â€”é”
+    //1.å›¾ç‰‡æ•£å¼€
     var list = my$("slide").getElementsByTagName("li");
     function assign () {
         for(var i=0;i<list.length;i++){
-            //ÉèÖÃÃ¿¸öli£¬¶¼Òª°Ñ¿í£¬²ã¼¶£¬Í¸Ã÷¶È£¬left£¬topµ½´ïÖ¸¶¨µÄÄ¿±êÎ»ÖÃ
+            //è®¾ç½®æ¯ä¸ªliï¼Œéƒ½è¦æŠŠå®½ï¼Œå±‚çº§ï¼Œé€æ˜åº¦ï¼Œleftï¼Œtopåˆ°è¾¾æŒ‡å®šçš„ç›®æ ‡ä½ç½®
             animate(list[i],config[i],function(){
                 flag = true;
             })
@@ -43,18 +43,18 @@ window.onload = function () {
     }
     assign();
 
-    //ÓÒ±ß°´Å¥
+    //å³è¾¹æŒ‰é’®
     my$("arrRight").onclick = function () {
         if(flag){
             flag = false;
-            //Ìí¼Ó½øÊı×éµÄÎ²°Í  °ÑÊı×éÖĞµÚÒ»¸öÉ¾³ı
+            //æ·»åŠ è¿›æ•°ç»„çš„å°¾å·´  æŠŠæ•°ç»„ä¸­ç¬¬ä¸€ä¸ªåˆ é™¤
             config.push(config.shift());
-            assign();//ÖØĞÂ·ÖÅä
+            assign();//é‡æ–°åˆ†é…
         }
     }
-    //×ó±ß°´Å¥
+    //å·¦è¾¹æŒ‰é’®
     my$("arrLeft").onclick = function () {
-        //°Ñ×îºóÒ»¸öÉ¾³ı£¬·µ»Ø³ÉĞÂÖµ¼ÓÈë¿ªÍ·
+        //æŠŠæœ€åä¸€ä¸ªåˆ é™¤ï¼Œè¿”å›æˆæ–°å€¼åŠ å…¥å¼€å¤´
         if(flag){
             flag=false;
             config.unshift(config.pop());
@@ -62,12 +62,25 @@ window.onload = function () {
         }
     }
 
-    //Êó±ê½øÈë£¬×óÓÒ½¹µãµÄdivÏÔÊ¾
+    //é¼ æ ‡è¿›å…¥ï¼Œå·¦å³ç„¦ç‚¹çš„divæ˜¾ç¤º
     my$("slide").onmouseover = function () {
         animate(my$("arrow"),{"opacity":1});
     };
-    //Êó±êÀë¿ª£¬×óÓÒ½¹µãµÄdivÒş²Ø
+    //é¼ æ ‡ç¦»å¼€ï¼Œå·¦å³ç„¦ç‚¹çš„divéšè—
     my$("slide").onmouseout = function () {
         animate(my$("arrow"),{"opacity":0});
     };
 }
+
+$(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop()>=2000){
+            $(".goTop").fadeIn(2000);
+            $(".faq").fadeIn(4000);
+        }else{
+            $(".goTop").fadeOut(1000);
+            $(".faq").fadeOut(1000);
+        }
+    })
+})
+
