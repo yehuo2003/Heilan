@@ -8,19 +8,11 @@
 a{
     color: #444;
 }
-.my_header{
-    width: 100%;
-    height: 15rem;
-}
-.my_footer{
-    width: 100%;
-    height: 29rem !important;
-}
 .my_must{
-    color: #999;
+    color: #999 !important;
 }
 .my_gray{
-    color: #aaa;
+    color: #aaa !important;
 }
 .my_border{
     border:1px solid #aaa;
@@ -32,3 +24,11 @@ a{
 .breadcrumb-item + .breadcrumb-item::before {
     content: ">";
 }
+div.my_border a.m-3{
+    transition: all .5s linear;
+}
+div.my_border a.m-3:hover{
+    color: #ccc;
+    font-weight: bold;
+    font-size: 20px;
+} 

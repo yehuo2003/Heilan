@@ -1,23 +1,17 @@
-.container {
-    min-width: 100% !important;
-}
-ul>li{
-    font-size: 12px;
-}
-ul>li>a{
+
+#header ul>li>a{
     color: #666;
     line-height: 30px;
-}
-ul>li>a>b{
-    font-size: 14px;
-    color: #333;
 }
 .bg-ccc{
     border-bottom: 1px solid #cccccc;
     background: #eee;
-    line-height: 30px;
+    line-height: 30px;        
 }
-.btn{
+.bg-ccc li{
+    margin: 0px;
+}
+#header .btn{
     border: 1px solid #ccc;
     color: #1582bd;
     background: #F0F0F0;
@@ -29,8 +23,9 @@ ul>li>a>b{
     width: 30%;
 }
 .nav>li>a{
-    color: #727272;
+    color: #666;
     font-size: 14px;
+    font-weight: normal;
 }
 .nav>li>a:hover{
    font-weight: bold;
@@ -41,15 +36,23 @@ ul>li>a>b{
   }
 
 #content>ul>li {
-    height: 500px;
+    margin: 0;
+    padding-top:50px; 
+    padding-right:100px; 
     background-color:#F4F4F4;
     display: none;
     font-weight: bold;
+    height:450px;
   }
 #content ul>li>a{
     margin-top: 10px;
     padding: 5px;
     border-bottom:1px solid #000;
+}
+#content ul>li>a:hover{
+    color: #ff5200;
+    font-weight: bold;
+    text-decoration: none;
 }
 .current {
     display: block !important;
@@ -57,5 +60,8 @@ ul>li>a>b{
   }
 #content div{
     position: relative;
-    left:333px;
+    left:333px;    
+}
+#content{
+    z-index: 99;
 }
