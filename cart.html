@@ -10,9 +10,7 @@
 </head>
 <body>
 <!--引入头部-->
-<header>
-    <iframe src="header.html" frameborder="0" scrolling="no" class="my_header"></iframe>
-</header>
+<header id="header"></header>
 <div class="container">
     <!-- 导航-->
     <nav class="breadcrumb">
@@ -93,10 +91,10 @@
             <!-- 继续购物-->
           <div>
             <button class="btn btn-danger"><a href="goods.html" class="text-white">继续购物</a></button>
-              &nbsp;&nbsp;<a href="#">清空购物袋</a>
+              &nbsp;&nbsp;<a href="404.html">清空购物袋</a>
           </div>
           <div class="float-right">
-              <h5 class="text-danger p-2">总计</h5>
+              <h5 class="bg-secondary text-white p-2">总计</h5>
               <p>商品数量：<span id="priceNum">2</span></p>
               <p>商品总额：<span class="text-danger" id="sum">￥526.00</span></p>
               <p><button class="btn btn-danger float-right">结算</button></p>
@@ -106,13 +104,13 @@
 
 </div>
 <!--引入尾部-->
-<footer>
-    <iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
-</footer>
+<footer id="footer"></footer>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/common.js"></script>
 <script src="js/cart.js"></script>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
 </body>
 </html>

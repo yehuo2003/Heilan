@@ -10,9 +10,7 @@
 </head>
 <body>
 <!--引入头部-->
-<header>
-    <iframe src="header.html" frameborder="0" scrolling="no" class="my_header"></iframe>
-</header>
+<header id="header"></header>
 <input type="button" id="btn" value="   (护眼模式预留)开/关"/>
 <div class="container">
     <!-- 商品列表，左大图 右边还买过列表-->
@@ -21,8 +19,18 @@
        <!-- 购买栏 左边大图，右边购买-->
       <div class="row">
           <!-- 大图-->
-          <div class="col-5 p-0">
+          <div class="col-5 p-0 position-relative">
+           <div class="box" id="box">
+            <div class="small">
               <img src="img/goods/img1/HNZWJ3E081A_21331_1--w_460_h_460.jpg"/>
+                  <!-- 遮挡层-->
+              <div class="mask"></div>
+            </div>
+              <!-- 大图：默认隐藏-->
+            <div class="big">
+              <img src="img/goods/img1/HNZWJ3E081A_21331_1.jpg"/>
+            </div>
+           </div>
             <div class="d-flex position-relative mt-3 mb-5">
                 <img src="img/goods/img1/left.gif"/>
                 <div>
@@ -90,7 +98,7 @@
                                <a href="#"><img src="img/goods/img1/down.jpg"/></a>
                             </div>
                           <p class="my_must ml-2 mt-2">件</p>
-                          <a href="#" class="ml-5 mt-2"><img src="img/goods/img1/wjx.png" class="pb-1"/>收藏该商品</a>
+                          <a href="login.html" class="ml-5 mt-2"><img src="img/goods/img1/wjx.png" class="pb-1"/>收藏该商品</a>
                       </td>
                   </tr>
                   <tr>
@@ -272,13 +280,13 @@
   </div>
 </div>
 <!--引入尾部-->
-<footer>
-    <iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
-</footer>
+<footer id="footer"></footer>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/common.js"></script>
 <script src="js/goods.js"></script>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
 </body>
 </html>

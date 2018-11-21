@@ -10,9 +10,7 @@
 </head>
 <body>
 <!--引入头部-->
-<header>
-    <iframe src="header.html" frameborder="0" scrolling="no" class="my_header"></iframe>
-</header>
+<header id="header"></header>
 <div class="container">
 <!--注册导航-->
     <div class="row">
@@ -29,6 +27,10 @@
                 <tr>
                     <th>手机号：</th>
                     <td><input type="tel" class="form-control"/></td>
+                </tr>
+								<tr>
+                    <th>电子邮箱：</th>
+                    <td><input type="email" class="form-control"/></td>
                 </tr>
                 <tr>
                     <th>设定密码：</th>
@@ -64,13 +66,13 @@
     </div>
 </div>
 <!--引入尾部-->
-<footer>
-    <iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
-</footer>
+<footer id="footer"></footer>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/common.js"></script>
 <script src="js/reg.js"></script>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
 </body>
 </html>
